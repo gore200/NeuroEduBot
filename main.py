@@ -15,7 +15,7 @@ conn = psycopg2.connect(
 
 cur = conn.cursor()
 
-bot_token = 'SSH'
+bot_token = 'YOUR BOT TOKEN'
 bot = TeleBot(bot_token)
 
         
