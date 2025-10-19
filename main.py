@@ -24,7 +24,7 @@ def ask(prompt, d, ID):
 
         client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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",
+        api_key="YOUR API KEY",
         )
         
         
