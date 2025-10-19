@@ -50,7 +50,7 @@ def ask(prompt, d, ID):
     except Exception as e:
         with open('logs.txt', 'a') as f:
             timestamp = datetime.datetime.now()
-            f.write(str(str(message.from_user.id) + ' ' + message.from_user.username + ' ' + e + ' ' +str(timestamp))+'\n')
+            f.write(str(str(e) + ' ' +str(timestamp))+'\n')
         return 'Попробуйте позже.'
         
 
